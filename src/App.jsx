@@ -8,7 +8,7 @@ function App() {
   const [submittedEmail, setSubmittedEmail] = useState("");
 
   return (
-    <div className="flex flex-row justify-around 2xl:mx-20 bg-white rounded-md pl-8 pr-5 py-5 ">
+    <div className="flex flex-row justify-around border 2xl:mx-20 bg-white rounded-md pl-8 pr-5 py-5 ">
       {isSubmitted ? (
         <Success submittedEmail={submittedEmail} />
       ) : (
